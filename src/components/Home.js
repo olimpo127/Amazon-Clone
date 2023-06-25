@@ -11,12 +11,14 @@ function Home() {
       </div>
 
       <div className='home_row'>
-        <Product title="The lean startup"
+        <Product id={1}
+                 title="The lean startup"
                  price={29.99}
                  image="https://m.media-amazon.com/images/I/81SrwYY-6-L._AC_UY327_FMwebp_QL65_.jpg"
                  rating={5}
         />
-        <Product title="The lean startup 2"
+        <Product id={2}
+                 title="The lean startup 2"
                  price={99.99}
                  image="https://m.media-amazon.com/images/I/81SrwYY-6-L._AC_UY327_FMwebp_QL65_.jpg"
                  rating={3}
@@ -25,17 +27,20 @@ function Home() {
       </div>
 
       <div className='home_row'>
-      <Product title="The lean startup 3"
+      <Product   id={3}
+                 title="The lean startup 3"
                  price={9.99}
                  image="https://m.media-amazon.com/images/I/81SrwYY-6-L._AC_UY327_FMwebp_QL65_.jpg"
                  rating={1}
         />
-        <Product title="The lean startup 4"
+        <Product id={4}
+                 title="The lean startup 4"
                  price={229.99}
                  image="https://m.media-amazon.com/images/I/81SrwYY-6-L._AC_UY327_FMwebp_QL65_.jpg"
                  rating={5}
         />
-        <Product title="The lean startup 5"
+        <Product id={5}
+                 title="The lean startup 5"
                  price={129.99}
                  image="https://m.media-amazon.com/images/I/81SrwYY-6-L._AC_UY327_FMwebp_QL65_.jpg"
                  rating={2}
@@ -43,7 +48,8 @@ function Home() {
       </div>
 
       <div className='home_row'>
-      <Product title="The lean startup 6"
+      <Product   id={6}
+                 title="The lean startup 6"
                  price={1129.99}
                  image="https://m.media-amazon.com/images/I/81SrwYY-6-L._AC_UY327_FMwebp_QL65_.jpg"
                  rating={5}

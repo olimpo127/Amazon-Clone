@@ -8,3 +8,5 @@ const firebaseConfig = {
   appId: "1:764272210323:web:cf69d980e9ccf17a3e3866",
   measurementId: "G-DY9PS5189Y"
 };
+
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
